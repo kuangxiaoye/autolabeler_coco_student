@@ -1,6 +1,15 @@
 # autolabeler_coco_student
 一种利用chatgpt4-view模型半自动标注的方式，主要用于coco格式的课堂学生目标检测数据集标注。
 
+## 运行方式 
+
+python coco_auto_openai_student.py 
+
+## 需要传入的参数
+
+    input_folder = "图片文件夹"
+    output_folder = "输出标注文件夹"
+    
 ## 提示词如下
 
 Identify and outline the entire target of any student in the image. "
